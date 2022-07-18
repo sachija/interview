@@ -1,0 +1,59 @@
+button{
+    background-color: blue;
+    border-radius: 10px;
+    width: 200PX;
+    height: 50px;
+    color: white;
+}
+p{
+    font-family: 'Nanum Pen Script', cursive; 
+}
+.box {
+        width: 200px;
+        height: 200px;
+        color:blue;
+        text-align: center;
+        background-color:greenyellow;
+        transition: width 4s linear;
+      }
+      
+      .box:hover {
+        width: 400px;
+      }
+ .circle{
+    background-color: brown;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+ }
+ .med{
+    background-color: mediumslateblue;
+    width: 200px;
+    height: 200px;
+ }
+ @media (min-width: 600px){
+  .med{
+    background-color: brown;
+  }
+ }
+ .anim{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  animation: anima 10s linear infinite;
+ }
+@keyframes anima{
+from{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+to{
+
+  width: 300px;
+  height: 300px;
+  background-color: black;
+
+}
+}
